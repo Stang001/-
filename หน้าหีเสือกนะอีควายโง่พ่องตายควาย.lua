@@ -1,4 +1,4 @@
-for _,v in pairs(game.ReplicatedStorage:FindFirstChild("Simlib"):GetDescendants()) do
+for _,v in pairs(game.ReplicatedStorage:FindFirstChild("Simlib").Mainsceen:GetDescendants()) do
 	if v:IsA("ImageLabel") then
 		v:Destroy()
 	end
